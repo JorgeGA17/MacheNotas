@@ -1,4 +1,2 @@
-package com.MacheNotas.MacheNotas_api.model.entity;
-
-public class Periodo {
+package com.MacheNotas.MacheNotas_api.model.entity;public class periodo {
 }

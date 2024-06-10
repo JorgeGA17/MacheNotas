@@ -1,4 +1,2 @@
-package com.MacheNotas.MacheNotas_api.model.entity;
-
-public class Programa {
+package com.MacheNotas.MacheNotas_api.model.entity;public class Programa {
 }
