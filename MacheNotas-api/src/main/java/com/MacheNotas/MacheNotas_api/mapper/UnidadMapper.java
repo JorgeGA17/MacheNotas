@@ -7,10 +7,12 @@ import com.MacheNotas.MacheNotas_api.model.dto.UnidadResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Unidad;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @AllArgsConstructor
+@Component
 
 public class UnidadMapper {
 

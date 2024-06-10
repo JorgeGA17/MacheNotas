@@ -7,9 +7,11 @@ import com.MacheNotas.MacheNotas_api.model.dto.ProgramaResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Programa;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 @AllArgsConstructor
+@Component
 
 public class ProgramaMapper {
 

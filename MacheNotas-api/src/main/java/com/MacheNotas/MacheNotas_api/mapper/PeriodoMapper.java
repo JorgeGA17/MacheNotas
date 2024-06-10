@@ -6,9 +6,12 @@ import com.MacheNotas.MacheNotas_api.model.dto.PeriodoResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Periodo;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
+
 import java.util.List;
 
 @AllArgsConstructor
+@Component
 
 public class PeriodoMapper {
 

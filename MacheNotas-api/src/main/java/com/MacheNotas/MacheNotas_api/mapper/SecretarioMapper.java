@@ -7,9 +7,11 @@ import com.MacheNotas.MacheNotas_api.model.dto.SecretarioResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Secretario;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 @AllArgsConstructor
+@Component
 
 public class SecretarioMapper {
 

@@ -6,10 +6,12 @@ import com.MacheNotas.MacheNotas_api.model.dto.EstudianteResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Estudiante;
 import lombok.AllArgsConstructor;
 import org.modelmapper.ModelMapper;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
 @AllArgsConstructor
+@Component
 
 public class EstudianteMapper {
     private final ModelMapper modelMapper;
