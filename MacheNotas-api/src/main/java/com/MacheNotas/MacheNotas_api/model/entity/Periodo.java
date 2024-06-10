@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+
 @Data
 @Entity
 @Table(name="Periodo")
@@ -18,8 +20,8 @@ public class Periodo {
     @Column(name = "Nombre", nullable = false)
     private String nombre;
     @Column(name = "Inicio", nullable = false)
-    private String inicio;
+    private LocalDate inicio;
     @Column(name = "Fin", nullable = false)
-    private String fin;
+    private LocalDate fin;
 
 }

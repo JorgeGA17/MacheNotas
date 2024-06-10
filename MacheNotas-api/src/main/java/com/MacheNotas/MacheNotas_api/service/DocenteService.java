@@ -6,12 +6,10 @@ import com.MacheNotas.MacheNotas_api.model.dto.DocenteRequestDTO;
 import com.MacheNotas.MacheNotas_api.model.dto.DocenteResponseDTO;
 import com.MacheNotas.MacheNotas_api.model.entity.Docente;
 import com.MacheNotas.MacheNotas_api.repository.DocenteRepository;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Service

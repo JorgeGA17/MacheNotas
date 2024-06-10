@@ -4,7 +4,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
 
-public interface SecreatarioRepository extends JpaRepository<Secretario, Long> {
+public interface SecretarioRepository extends JpaRepository<Secretario, Long> {
 
     Optional<Secretario> findByNombre(String  Nombre);
 }
