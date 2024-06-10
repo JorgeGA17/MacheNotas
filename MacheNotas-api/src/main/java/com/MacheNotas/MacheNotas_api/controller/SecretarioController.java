@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.controller;
 
-public class SecretarioAcademicoController {
+public class SecretarioController {
 }

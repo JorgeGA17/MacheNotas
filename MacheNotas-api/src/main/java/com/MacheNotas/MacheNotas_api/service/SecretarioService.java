@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.service;
 
-public class UnidadDidacticaService {
+public class SecretarioService {
 }

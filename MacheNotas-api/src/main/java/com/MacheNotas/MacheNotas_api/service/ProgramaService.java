@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.service;
 
-public class ProgramaEstudianteService {
+public class ProgramaService {
 }

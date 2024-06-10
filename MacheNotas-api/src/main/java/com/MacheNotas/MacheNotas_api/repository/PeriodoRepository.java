@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.repository;
 
-public interface SecreatarioAcademicoRepository {
+public interface PeriodoRepository {
 }

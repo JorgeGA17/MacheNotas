@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.model.entity;
 
-public class ProgramaEstudio {
+public class Periodo {
 }

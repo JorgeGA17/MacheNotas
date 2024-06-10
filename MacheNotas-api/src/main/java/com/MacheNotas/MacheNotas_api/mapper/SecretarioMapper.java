@@ -1,4 +1,4 @@
 package com.MacheNotas.MacheNotas_api.mapper;
 
-public class ProgramaEstudioMapper {
+public class SecretarioMapper {
 }
