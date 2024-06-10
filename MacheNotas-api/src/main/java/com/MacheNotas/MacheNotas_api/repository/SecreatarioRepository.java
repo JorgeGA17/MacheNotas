@@ -1,4 +1,10 @@
 package com.MacheNotas.MacheNotas_api.repository;
+import com.MacheNotas.MacheNotas_api.model.entity.Secretario;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface SecreatarioRepository {
+import java.util.Optional;
+
+public interface SecreatarioRepository extends JpaRepository<Secretario, Long> {
+
+    Optional<Secretario> findByNombre(String  Nombre);
 }

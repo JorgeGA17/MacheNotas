@@ -1,4 +1,27 @@
 package com.MacheNotas.MacheNotas_api.model.entity;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-public class Secretario {
+@Data
+@Entity
+@Table(name="Secretario")
+@NoArgsConstructor
+@AllArgsConstructor
+
+public class Secretario{
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+
+    private Long id;
+    @Column(name = "Nombre", nullable = false)
+    private String nombre;
+    @Column(name = "Email", nullable = false, unique = true)
+    private String email;
+    @Column(name = "Password", nullable = false)
+    private String password;
+
+
 }
+
