@@ -14,7 +14,6 @@ public class UnidadRequestDTO {
     @NotBlank(message = "El nombre no puede estar vacio")
     private String nombre;
 
-    @NotBlank(message = "La duracion no puede estar vacia")
     private int duracion;
 
     private int creditaje;

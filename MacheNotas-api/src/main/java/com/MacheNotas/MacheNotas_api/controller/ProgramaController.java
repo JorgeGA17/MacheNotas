@@ -15,6 +15,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/Programas")
 @AllArgsConstructor
+@CrossOrigin(originPatterns = "http://localhost:4200/")
+
 public class ProgramaController {
     private final ProgramaService programaService;
 

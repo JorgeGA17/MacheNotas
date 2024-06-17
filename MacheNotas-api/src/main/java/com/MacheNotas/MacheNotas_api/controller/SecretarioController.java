@@ -14,6 +14,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/Secretarios")
 @AllArgsConstructor
+@CrossOrigin(originPatterns = "http://localhost:4200/")
+
 public class SecretarioController {
     private final SecretarioService secretarioService;
 

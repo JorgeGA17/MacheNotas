@@ -14,6 +14,8 @@ import java.util.List;
 @RestController
 @RequestMapping("/Periodos")
 @AllArgsConstructor
+@CrossOrigin(originPatterns = "http://localhost:4200/")
+
 public class PeriodoController {
 
     private final PeriodoService periodoService;
