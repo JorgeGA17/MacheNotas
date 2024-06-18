@@ -1,23 +1,27 @@
 package com.MacheNotas.MacheNotas_api.model.dto;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.format.annotation.DateTimeFormat;
 
+import java.text.SimpleDateFormat;
 import java.time.LocalDate;
+import java.util.Date;
 
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 
+
 public class PeriodoRequestDTO {
 
-    @NotBlank(message = "El nombre no puede estar vacio")
     private String nombre;
 
-    private LocalDate inicio;
+    private Date inicio;
 
-    private LocalDate fin;
+    private Date fin;
 
 }
