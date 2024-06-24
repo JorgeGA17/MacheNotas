@@ -45,7 +45,7 @@ public class DocenteController {
 
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteAccount(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteDocente(@PathVariable Long id) {
         docenteService.deleteDocente(id);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
